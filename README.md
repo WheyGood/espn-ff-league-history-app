@@ -1,9 +1,10 @@
 
 # ESPN Fantasy Football League History App
 
-Download your ESPN fantasy football league history data via web scraping and view
-the league's history in a simple to use Streamlit powered dashboard for fun comparisons 
-of the league members.
+Facilitate the download of ESPN fantasy football league history data via web scraping in order
+visualize various stats of league members as a whole and individually.  Streamlit powers 
+the dashboard which allows for customizable charts based on season and league members 
+that are selected.
 
 
 
