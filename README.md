@@ -1,10 +1,12 @@
 
-# ESPN Fantasy Football League History App
+# ESPN Fantasy Football League History Database App
 
-Facilitate the download of ESPN fantasy football league history data via web scraping in order
-visualize various stats of league members as a whole and individually.  Streamlit powers 
-the dashboard which allows for customizable charts based on season and league members 
-that are selected.
+Create a dynamic Streamlit dashboard to view the fantasy football stats accumulated over 
+multiple seasons of your personal league with this app. Selenium and Beautiful Soup will    
+facilitate the web scarping and download of the seasonal stats into CSV form.  Finally, Plotly
+provides customizable charts for player perfromance comparisons.
+
+
 
 
 
@@ -26,22 +28,29 @@ that are selected.
 ![](images/ind2.png)
 
 
+
 ## Tech Stack
 
-**Language:** Python 
+**Language:** Python 3.9.4
 
-**Packages:** Pandas, NumPy, Selenium, BeautifulSoup, Streamlit, Plotly, re
+**Packages** 
+- Pandas 1.2.5 
+- NumPy 1.21.0 
+- Selenium 4.3.0
+- BeautifulSoup 4.11.1
+- Streamlit 1.10.0
+- Plotly 5.9.0
+- re
 
-**Additional:** Chrome Web Driver for your current browser (https://sites.google.com/chromium.org/driver/downloads)
-## Beginner Installation (no python on cpu)
+**Additional:** Chrome Web Driver for your current browser.  
+Find your Version in About Google Chrome Section of Settings
+
+Download link -> https://sites.google.com/chromium.org/driver/downloads
 
 
-
-```bash
-
-```
-    
 ## Deployment
+
+First step is to run the 
 
 In a new instance of the command prompt only two commands are required to launch the app
 
@@ -52,3 +61,14 @@ followed by
 ```
 streamlit run app.py
 ```
+
+## Beginner Installation (no python on cpu)
+
+If you stumbled on this repo and you do not have python installed on your windows machine then
+please view this tutorial in order to install. 
+
+
+```
+
+```
+    
