@@ -18,8 +18,11 @@ of the league members.
 
 
 ## App Example
-
-
+![](images/main.png)
+![](images/main3.png)
+### Individual player page
+![](images/ind1.png)
+![](images/ind2.png)
 
 
 ## Tech Stack
