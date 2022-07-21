@@ -105,7 +105,7 @@ st.plotly_chart(fig_wl_bar, use_container_width=True)
 # --- Most Points Scored Table and Points Against Table ---
 left_column1, right_column1 = st.columns(2)
 
-df_points = df_selection.groupby(by='User')['PF', 'PA'].sum().reset_index()
+df_points = df_selection.groupby(by='User')[['PF', 'PA']].sum().reset_index()
 df_points = df_points.sort_values(by='PF', ascending=True)
 
 # Points For Bar Chart
