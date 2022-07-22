@@ -54,7 +54,9 @@ is placed in the Program Files (x86) of your machine.
 
 Place all files in a single folder and copy the path of the folder
 
-**First**, run the the scrape file. Run this as many times as you have seasons
+**First**, run the the scrape file. Run this as many times as you have seasons 
+
+Make sure to know your login, pass, league id, and have your folder path copied and ready for paste
 
  ```
 cd folder_path
