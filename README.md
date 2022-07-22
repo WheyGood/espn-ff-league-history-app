@@ -1,4 +1,3 @@
-
 # ESPN Fantasy Football League History Database App
 
 Create a dynamic Streamlit dashboard to view the fantasy football stats accumulated over 
@@ -69,7 +68,10 @@ cd folder_path
 python clean.py
 ```
 
-**Finally**, make sure you are in the directory
+**Finally**, make sure you are in the directory and your folder looks like this
+![](images/FolderExample.png)
+
+
 ```
 cd folder_path
 streamlit run app.py
@@ -78,10 +80,28 @@ streamlit run app.py
 ## Beginner Installation (no python on cpu)
 
 If you stumbled on this repo and you do not have python installed on your windows machine then
-please view this tutorial in order to install python/pip, selenium and the required pacakges.
+please view this tutorial in order to install python/pip, selenium and the required packages.
 
-[![Install Python](http://img.youtube.com/vi/AwIXfaGEN4c/0.jpg)](https://www.youtube.com/watch?v=AwIXfaGEN4c)
+- [Install Python and pip on your Windows PC](https://www.youtube.com/watch?v=AwIXfaGEN4c)
 
 - [Downloading Chrome Web Driver Yotube video example](https://youtu.be/Xjv1sY630Uc?t=261)
 
-    
+
+Need to use the pip command in the command prompt to install all of the required packages.
+Google 'pip install package' to best find the command to complete this task.
+
+
+This site is an example for how to install our first package of pandas 
+https://pypi.org/project/pandas/ 
+
+Full List of pip commands needed
+```
+pip install pandas
+pip install numpy
+pip install selenium
+pip install beautifulsoup4
+pip install streamlit
+pip install plotly
+```
+
+Finally after all of this the progrmas should run nicely!
