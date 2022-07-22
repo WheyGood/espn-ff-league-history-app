@@ -33,7 +33,7 @@ provides customizable charts for player perfromance comparisons.
 
 **Language:** Python 3.9.4
 
-**Packages** 
+**Packages:** 
 - Pandas 1.2.5 
 - NumPy 1.21.0 
 - Selenium 4.3.0
@@ -42,33 +42,46 @@ provides customizable charts for player perfromance comparisons.
 - Plotly 5.9.0
 - re
 
-**Additional:** Chrome Web Driver for your current browser.  
+**Additional:** 
+
+Google Chrome and Chrome Web Driver for your current browser.  
 Find your Version in About Google Chrome Section of Settings
 
 Download link -> https://sites.google.com/chromium.org/driver/downloads
-
-
 ## Deployment
 
-First step is to run the 
+First step is to make sure the chrome web driver you have installed (see tech stack section for the link)
+is placed in the Program Files (x86) of your machine. 
 
-In a new instance of the command prompt only two commands are required to launch the app
+Place all files in a single folder and copy the path of the folder
+
+**First**, run the the scrape file. Run this as many times as you have seasons
+
+ ```
+cd folder_path
+python scrape.py
+ ```
+
+**Second**, after all the seasonal stat csv files are downlaoded and in the folder 
 
 ```
 cd folder_path
+python clean.py
 ```
-followed by
+
+**Finally**, make sure you are in the directory
 ```
+cd folder_path
 streamlit run app.py
 ```
 
 ## Beginner Installation (no python on cpu)
 
 If you stumbled on this repo and you do not have python installed on your windows machine then
-please view this tutorial in order to install. 
+please view this tutorial in order to install python/pip, selenium and the required pacakges.
 
+[![Install Python](http://img.youtube.com/vi/AwIXfaGEN4c/0.jpg)](https://www.youtube.com/watch?v=AwIXfaGEN4c)
 
-```
+- [Downloading Chrome Web Driver Yotube video example](https://youtu.be/Xjv1sY630Uc?t=261)
 
-```
     
