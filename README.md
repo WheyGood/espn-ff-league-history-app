@@ -11,7 +11,7 @@ provides customizable charts for player perfromance comparisons.
 
 ## Authors
 
-- [@WheyGood (Matt S)](https://www.https://github.com/WheyGood)
+- [@WheyGood (Matt S)](https://www.github.com/WheyGood)
 
 
 ## Acknowledgements
