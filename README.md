@@ -2,7 +2,7 @@
 
 Create a dynamic Streamlit dashboard to view the fantasy football stats accumulated over 
 multiple seasons of your personal league with this app. Selenium and Beautiful Soup will    
-facilitate the web scarping and download of the seasonal stats into CSV form.  Finally, Plotly
+facilitate the web scraping and download of the seasonal stats into CSV form while Plotly
 provides customizable charts for player perfromance comparisons.
 
 
@@ -106,4 +106,4 @@ pip install streamlit
 pip install plotly
 ```
 
-Finally after all of this the progrmas should run nicely!
+Finally after all of this, the programs should run nicely!
