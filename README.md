@@ -1,8 +1,8 @@
 # ESPN Fantasy Football League History Database App
 
 Create a dynamic Streamlit dashboard to view the fantasy football stats accumulated over 
-multiple seasons of your personal league with this app. Selenium and Beautiful Soup will    
-facilitate the web scraping and download of the seasonal stats into CSV form while Plotly
+multiple seasons of your personal league with this app. Selenium and Beautiful Soup will 
+facilitate the web scraping and download of the seasonal stats into CSV form while Plotly 
 provides customizable charts for player perfromance comparisons.
 
 
